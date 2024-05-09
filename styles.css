@@ -1,0 +1,27 @@
+body{
+    background-color: #3C4048;
+}
+h1{
+    color: #EAEAEA;
+    font-family: "SF Pro Display", serif;
+}
+.white-div{
+    height: 600px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.white-div > .green-div{
+    height: 200px;
+    width: 1200px;
+    background-color: #00966E;
+    position: absolute;
+    top: 200px;
+}
+.white-div > .red-div{
+    height: 200px;
+    width: 1200px;
+    background-color: #D62612;
+    position: absolute;
+    top: 400px;
+}
